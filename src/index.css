@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        background: #F0F2F0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #000C40, #989e98);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #000C40, #989e98); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+}
+@layer utilities{
+    .box-shadow{
+        box-shadow: 0 0 5px #cc03f4,
+        0 0 25px #a003f4,
+        0 0 50px #a803f4,
+        0 0 100px #03e9f4;
+    }
+}
+/* .active{
+    background-color: red;
+    color: #fff;
+} */
+
+
