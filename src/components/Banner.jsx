@@ -34,7 +34,7 @@ export default function Banner() {
             </div>
             <div className='w-4/5 mt-5 flex items-center mx-auto md:mx-0 max-w-max'>
                 <a href='tel:+919832920149'><div className='border-2 border-[#03e9f4] text-sm md:text-xl bg-gradient-to-r from-violet-500 to-blue-500 rounded-full px-3 py-2 md:px-4 md:py-2 text-white font-semibold cursor-pointer hover:box-shadow mr-8'>Contact me</div></a>
-                <a href='/'><div className='bg-gradient-to-r from-[#43C6AC] to-[#F8FFAE] inline-block text-transparent bg-clip-text text-lg md:text-2xl font-semibold'>My Portfolio</div></a>
+                <a href='https://codersayan1.github.io/my-portfolio/'><div className='bg-gradient-to-r from-[#43C6AC] to-[#F8FFAE] inline-block text-transparent bg-clip-text text-lg md:text-2xl font-semibold'>My Portfolio</div></a>
             </div>
             {/* icon portion */}
             <div className='flex mx-auto md:mx-0 max-w-max gap-x-10 mt-10 text-white/50 text-2xl'>
