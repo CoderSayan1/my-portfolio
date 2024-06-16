@@ -1,6 +1,6 @@
 import React from 'react'
 import myImage from '../images/img1.jpg'
-import myResume from '../assets/SAYAN_DAS_Resume.pdf'
+import myResume from '../assets/SAYAN_124.pdf'
 import {TypeAnimation} from 'react-type-animation'
 
 export default function About() {
