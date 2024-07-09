@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../images/Sayan.jpg";
+import image1 from "../images/link.png";
 import image2 from "../images/password.png"
 
 export default function Work() {
@@ -30,8 +30,8 @@ export default function Work() {
         <div className="flex flex-col">
           {projects.map((project) => (
             <div className="flex md:flex-row flex-col md:justify-between mb-6 p-4 rounded-xl bg-gradient-to-r from-[#394c59] to-[#2c3e50] w-full" key={project.id}>
-              <div className="md:w-[30%] w-full mx-auto md:mx-0">
-                <img src={project.image} alt="oops" className="rounded-lg"/>
+              <div className="md:w-1/2 w-full mx-auto md:mx-0">
+                <img src={project.image} alt="oops" className="rounded-lg w-full h-auto"/>
               </div>
               <div className="text-white w-[70%] md:mx-10 mx-0">
                 <div className="text-xl font-bold mb-4 md:text-left mt-4 md:mt-0">
